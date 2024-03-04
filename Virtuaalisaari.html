@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Tiia Tuominen</title>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="Tyylit_portfoliosivu3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+
+
+<body>
+
+    <nav>
+        <ul class="navi-links">
+            <li class="navi-linkki"><a href="index.html">Etusivu</a></li>
+            <li class="navi-linkki"><a href="Virtuaalisaari.html">Virtuaalisaari</a></li>
+            <li class="navi-linkki"><a href="virtuaalinene_tanssi.html">Virtuaalinen tanssikokemus</a></li>
+            <li class="navi-linkki"><a href="Tietoa_minusta.html">Tietoa minusta</a></li>
+          </ul>
+    </nav>
+
+    
+    <header class="etusivu">
+        <h1>Virtuaalisaari Gustavsvärn</h1>
+        <p class="vuosiluku-header">
+            2021
+        </p>
+    </header>
+
+
+    <div class="infocards">
+        <h2>Työvälineet ja rooli</h2>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <img src="icon_tyovaline.svg" alt="ikoni työvälineistä">
+
+                    <div class="card-text">
+                        <h4>Työvälineet</h4>
+                        <ul class="bullet-list">
+                            <li>Unreal Engine 4</li>
+                            <li>Illustrator</li>
+                            <li>Adobe XD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <img src="icon_person.svg" alt="ikoni ihmishahmosta">
+                    <div class="card-text">
+                        <h4>Roolini</h4>
+                        <ul class="bullet-list">
+                            <li>UI/UX-suunnittelija</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+    <div class="text-block">
+        <h2>Mistä on kyse?</h2>
+        <p>Tämä projekti toteutettiin projektikurssilla syksyllä 2021. Toteutimme projektitiimini kanssa kosketusnäyttösovelluksen, joka esittelee Hangossa sijaitsevan Gustavsvärn-saaren historiaa interaktiivisella tavalla. Projekti toteutettiin yhteistyössä Hangon museon ystävät ry:n kanssa.
+            Kosketusnäyttösovellus luotiin käytettäväksi isolla kosketusnäytöllä museoympäristössä. Sovelluksessa on Gustavsvärnin saaren 3D-mallinnus, jota käyttäjä voi pyöritellä ja tutkia painamalla saaren päällä olevista kiintopisteistä. Kiintopisteen valitsemalla käyttäjälle avautuu joko animaatio tai infolaatikko, joka käsittelee jotakin saaren monista historiallisista tapahtumista. </p>
+
+
+    </div>
+    <div class="video-block">
+        <video width="100%" height="100%" controls>
+            <source src="GustuDemo.mp4" type="video/mp4">
+        </video>
+        <p class="kuvateksti">
+            Demovideo sovelluksesta.
+        </p>
+    </div>
+
+
+    <div class="text-block">
+        <h2>Tavoitteet</h2>
+        <p>Hangon museon ystävät ry halusi luoda Gustavsvärn-saaresta informatiivisen ja kiinnostavan esityksen museoympäristöön. Museoympäristössä olevan sovelluksen tulisi olla helppokäyttöinen kaikille museossa kävijöille. Sen tulisi olla myös kiinnostusta herättävä ja erottua muusta museon sisällöstä.</p>
+    </div>
+
+    <div class="text-block">
+        <h2>Aloitus</h2>
+        <p>Aloitimme projektin vierailemalla Gustavsvärn-saarella Hangossa. Siellä keräsimme video-  ja kuvamateriaalia ottamalla kuvia kameroilla ja ilmassa lentävällä dronella. Dronekuvista tiimimme loi fotogrammetriamallin saaresta.
+            Design-prosessin käynnistimme muutamilla brainstorming-sessioilla. Päätimme rakentaa sovelluksen isolle kosketusnäytölle, jotta sitä olisi helppo käyttää museoympäristössä. Isoa kosketusnäyttöä voisi myös katsella moni museon kävijä yhdellä kertaa. Näiden sessioiden jälkeen meillä oli kasassa suunnitelma projektista, jonka pohjalta aloin seuraavaksi rakentamaan käyttäjäkokemusta ja käyttöliittymää. Päädyin tekemään käyttöliittymästä kolmiosaisen. Se koostuu aloitusnäytöstä, saaren tarkastelu -näkymästä ja interest pointeista eli kiintopisteistä. </p>
+    </div>
+
+
+    <div class="kuva">
+        <img src="Wireframe_gusse.jpg" alt="Kuva rautalankalammista">
+        <p class="kuvateksti">
+            Rautalankamalli käyttöliittymästä.
+        </p>
+    </div>
+
+
+    <div class="text-block">
+        <h2>Suunnittelu</h2>
+        <p>Kun rautalanka oli valmis, aloin työstämään nappien ja ikonien ulkonäköä. Halusin, että napit ja ikonit olisivat ulkonäöltään neutraalit ja simppelit mutta silti erottuisivat ympäristöstään tarpeeksi. Päädyin vihertävän siniseen väriin, sillä se sopi parhaiten sovelluksen yleiseen värimaailmaan ja tunnelmaan. Napit ja ikonit loin Adobe Illustrator -ohjelmalla.
+            Graafisten elementtien ollessa valmiita, aloin kokoamaan käyttöliittymää Unreal Engineen. Koodasin muutamia simppeleitä toimintoja käyttäen Unreal Enginen Blueprtint-nimistä visuaalista koodausohjelmaa.</p>
+    </div>
+
+
+    <div class="kuva">
+        <img src="Kollaasi2.1.jpg" alt="Kuvakollaasi käyttöliittymästä">
+        <p class="kuvateksti">
+            Kuvia lopullisesta käyttöliittymästä.
+        </p>
+    </div>
+
+
+    <div class="text-block">
+        <h2>Lopputulos</h2>
+        <p>Projektikurssin aikana saimme rakennettua sovelluksesta demo-version, joka esittelee sovelluksen toiminnot kattavasti. Sovelluksen avulla käyttäjä pääsee tutkimaan Gustavsvärn-saarta 1800-luvulla ja 2000-luvulla. Saarella sijaitsevien kiintoposteiden kautta käyttäjä voi syventyä saaren eri historiallisiin käännekohtiin ja tapahtumiin. 
+            Tulevaisuudessa sovelluksen kehitystä voisi jatkaa lisäämällä kiintopisteisiin kattavammin tietoa animaatioiden kautta. Myös itse kiintopisteitä voisi lisätä saarelle. Loppujen lopuksi luomalle demo demostroi ja toteuttaa onnistuneesti alkuperäistä ideaamme sovelluksesta.</p>
+    </div>
+
+
+
+
+ <footer>
+    <div class="footer-contents">
+
+        <div class="footer-column">
+            <img src="Nimilogo.svg" alt="Logo Tiia Tuominen" class="nimilogo">
+            <p>+123 456 7891</p>
+            <p>etunimi.sukunimi@gmail.com</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Portfolio</h4>
+            <p><a href="index.html">Virtuaalisaari</a></p>
+            <p><a href="virtuaalinene_tanssi.html">Virtuaalinen tanssikokemus</a></p>
+            <p><a href="Tietoa_minusta.html">Tietoa minusta</a></p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Sosiaalinen media</h4>
+            <p><img src="instagram_white.svg" alt="Logo instagram" class="logo"><a href="https://www.instagram.com/tii_xr/">@käyttäjänimi</a></p>
+            <p><img src="linkedin_white.svg" alt="Logo instagram" class="logo"><a href="https://www.linkedin.com/in/tiia-tuominen-245a0a22b/">Etunimi Sukunimi</a></p>
+        </div>
+
+    </div>
+    </footer>
+
+
+</body>    
+</html>

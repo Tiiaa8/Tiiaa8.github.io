@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Tiia Tuominen</title>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="Tyylit_portfoliosivu3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+
+    <nav>
+        <ul class="navi-links">
+            <li class="navi-linkki"><a href="index.html">Etusivu</a></li>
+            <li class="navi-linkki"><a href="Virtuaalisaari.html">Virtuaalisaari</a></li>
+            <li class="navi-linkki"><a href="virtuaalinene_tanssi.html">Virtuaalinen tanssikokemus</a></li>
+            <li class="navi-linkki"><a href="Tietoa_minusta.html">Tietoa minusta</a></li>
+          </ul>
+    </nav>
+
+
+    <header class="etusivu">
+        <h1>Olen Tiia, visuaalinen suunnittelija</h1>
+    </header>
+
+
+    <div class="tyo-cards">
+        <h2>Työnäytteet</h2>
+        <div class="tyo-container">
+            <div class="tyo-card">
+                <div class="tyo-content">
+                    <div class="tyo-card-image tyo-1"></div>
+                        <div class="tyo-card-text-button">
+                            <div class="tyo-card-text">
+                                <h3>Virtuaalisaari Gustavsvärn</h3>
+                                <p class="vuosiluku">2021</p>
+                            </div>
+                                <button onclick="siirryVirtuaalisaareen()" class="nuoli-button"><img src="ph_arrow-up.svg"></button>
+
+                                <script>
+                                    function siirryVirtuaalisaareen(){
+                                        location.href = "Virtuaalisaari.html";
+                                    }
+                                </script>
+                            </div>
+                </div>
+            </div>
+
+            <div class="tyo-card">
+                <div class="tyo-content">
+                    <div class="tyo-card-image tyo-2"></div>
+                        <div class="tyo-card-text-button">
+                            <div class="tyo-card-text">
+                                <h3>Virtuaalinen tanssikokemus</h3>
+                                <p class="vuosiluku">2022</p>
+                            </div>
+                                <button onclick="siirryVirtuaalitanssiin()" class="nuoli-button"><img src="ph_arrow-up.svg"></button>
+
+                                <script>
+                                    function siirryVirtuaalitanssiin(){
+                                        location.href = "virtuaalinene_tanssi.html";
+                                    }
+                                </script>
+                            </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="kuva-teksti">
+        <div class="kuva-container">
+
+            <div class="kuva-card">
+                <div class="kuva-card-image imageme-1"></div>
+            </div>
+
+            <div class="kuva-card">
+                <div class="content">
+                    <div class="kuva-card-text">
+                        <h3>Kuka olen?</h3>
+                        <p>Moikka! Olen Tiia Tuominen, visuaalinen suunnittelija ja opiskelija Helsingistä. Valmistuin viime keväänä Metropoliasta medianomiksi, ja opiskelen tällä hetkellä toista tutkintoani Haaga-Heliassa työn ohessa. Tutustutaan lisää!</p>
+                    </div>
+                    <button onclick="siirryTietoaminusta()" class="teksti-button">Tietoa minusta</button>
+                                <script>
+                                    function siirryTietoaminusta(){
+                                        location.href = "Tietoa_minusta.html";
+                                    }
+                                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="infocards">
+        <h2>Ollaan yhteyksissä!</h2>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <img src="Phone.svg" alt="ikoni puhelimesta">
+
+                    <div class="card-text">
+                        <h4>Soita</h4>
+                        <p>+123 456 7891</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <img src="email.svg" alt="ikoni puhelimesta">
+                    <div class="card-text">
+                        <h4>Lähetä sähköpostia</h4>
+                        <p>nimi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <img src="instagram.svg" alt="ikoni puhelimesta">
+                    <div class="card-text">
+                        <h4>Vieraile Instagramissa</h4>
+                        <p>@käyttäjänimi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+
+    <footer>
+    <div class="footer-contents">
+
+        <div class="footer-column">
+            <img src="Nimilogo.svg" alt="Logo Tiia Tuominen" class="nimilogo">
+            <p>+123 456 7891</p>
+            <p>etunimi.sukunimi@gmail.com</p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Portfolio</h4>
+            <p><a href="Virtuaalisaari.html">Virtuaalisaari</a></p>
+            <p><a href="virtuaalinene_tanssi.html">Virtuaalinen tanssikokemus</a></p>
+            <p><a href="Tietoa_minusta.html">Tietoa minusta</a></p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Sosiaalinen media</h4>
+            <p><img src="instagram_white.svg" alt="Logo instagram" class="logo"><a href="https://www.instagram.com/tii_xr/">@käyttäjänimi</a></p>
+            <p><img src="linkedin_white.svg" alt="Logo instagram" class="logo"><a href="https://www.linkedin.com/in/tiia-tuominen-245a0a22b/">Etunimi Sukunimi</a></p>
+        </div>
+
+    </div>
+    </footer>
+    
+</body>    
+</html>
