@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #0B2C3B;
+    background-image: url(tausta.png);
+    padding: 100px;
+    
+}
+
+h1{
+    font-family: titan one;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+}
+
+
+nav{
+    background-color: #0B2C3B;
+    padding-bottom: 48px;
+    
+}
+
+.navi-links{
+    list-style: none;
+    margin: 0;
+    padding: 28px 48px;
+    
+  }
+
+  .navi-linkki {
+    float: left;
+  }
+ 
+  .navi-linkki a{
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    font-family: lato;
+    text-decoration: none;
+    float: left;
+  }
+
+
+
+h2{
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+    font-family: titan one;
+    font-size: 40px;
+    color: #0B2C3B;
+}
+
+p{
+    font-family: lato;
+    font-size: 18px;
+}
+
+.vuosiluku-header{
+    font-family: titan one;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* tyokortit */
+
+.tyo-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap:31px;
+    margin: 40px auto;
+    max-width: 1400px;
+}
+
+.tyo-cards h2{
+    margin-bottom: 0px;
+}
+
+.tyo-card{
+    background-color: #F9F6F3;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.tyo-card-text{
+    margin: 24px 24px 24px 24px;
+    font-family: titan one;
+    font-size: 20px;
+}
+
+.vuosiluku{
+    font-family: titan one;
+    margin-top: 8px;
+}
+
+.tyo-card-image{
+    background-color: aqua;
+    height: 270px;
+    margin: 0px;
+    background-size: cover;
+}
+
+.tyo-1{
+    background-image: url(Gusse.PNG);
+}
+
+.tyo-2{
+    background-image: url(dancify.PNG);
+}
+
+
+.tyo-content{
+    padding: 0px;
+}
+
+.nuoli-button{
+    background-color: #0B2C3B;
+    padding:  16px 28px; /* Adjust padding as needed */
+    display: inline-block; /* Ensure button takes up only necessary space */
+    border-radius: 100px; /* Optional: Add border radius for consistency */
+    border: none; /* Optional: Remove border */
+    color: white; /* Optional: Set text color */
+    margin: 0px 24px 16px 24px;
+}
+
+.nuoli-button:hover {
+    background-color: #123F53;
+  }
+
+
+
+/* kuva + teksti */
+
+.kuva-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:0px;
+    margin: 0px 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 2400px;
+}
+
+.kuva-card{
+    background-color: #F9F6F3;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.kuva-card-image{
+    background-color: aqua;
+    height: 468px;
+    margin: 0px;
+    background-size: cover;
+}
+
+.imageme-1{
+    background-image: url(festarit02.jpg);
+    background-position: center ;
+    background-size: 100%;
+    
+}
+
+.kuva-card-text{
+    margin: 24px 24px 24px 24px;
+}
+
+.kuva-card-text h3{
+    font-family: titan one;
+    font-size: 40px;
+    color: #0B2C3B;
+    padding: 0px 0px 32px 0px;
+}
+
+.kuva-card-text p{
+    font-family: lato;
+    font-size: 18px;
+    padding: 0px 0px 44px 0px;
+}
+
+.teksti-button{
+    font-family: lato;
+    font-size: 18px;
+    background-color: #0B2C3B;
+    padding: 16px 28px; /* Adjust padding as needed */
+    border-radius: 100px; /* Optional: Add border radius for consistency */
+    color: white; /* Optional: Set text color */
+    margin: 0px 28px 16px 28px;
+}
+.teksti-button:hover {
+    background-color: #123F53;
+  }
+
+
+
+/* tietokortit */
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap:31px;
+    margin: 40px auto;
+    max-width: 1400px;
+}
+
+.card{
+    background-color: #F9F6F3;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.content{
+    padding: 24px;
+}
+
+.card-text h4 {
+    margin:0px 0px 16px 0px ;
+    font-family: Lato;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card-text h2{
+    margin-bottom: 24px;
+}
+
+.card-text p{
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.card-text{
+    margin: 28px 0 0 0 ;
+}
+
+/* lisäykset infokortit */
+
+.bullet-list{
+    padding-left: 16px;
+    font-family: Lato;
+    font-size: 18px;
+}
+
+/* footer */
+
+footer{
+    background-color: #0B2C3B;
+    padding: 90px 120px;
+    font-family: lato;
+    color: white;
+    font-size: 18px;
+}
+.footer-contents{
+    width: 90%;
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap:150px;
+    margin: 40px auto;
+    max-width: 1400px;
+}
+
+.footer-column a{
+    text-decoration: none;
+    color: white;
+    font-family: lato;
+}
+.footer-column p{
+    padding-bottom: 16px;
+}
+
+.footer-column h4{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.nimilogo{
+    padding-bottom: 16px;
+}
+
+.logo{
+    padding-right: 12px;
+}
+
+
+/* Otsikko ja sen alla teksti  */
+
+.text-block{
+    width: 80%;
+    justify-content: center;
+    margin: 40px auto 40px ;
+    max-width: 1400px;
+}
+
+.text-block h2{
+    margin-bottom: 24px;
+}
+
+.kuvateksti{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+
+
+/* Kuva */
+.kuva img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 1400px;
+    display: block;
+    padding-bottom: 12px;
+}
+
+.video-block video{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 1400px;
+    display: block;
+}
+
+
+@media screen and (max-width:850px) {
+    .container{
+        flex-direction:column;
+    }
+
+    .tyo-container{
+        flex-direction:column;
+    }
+
+    .kuva-container{
+        flex-direction: column;
+    }
+
+    .footer-contents{
+        flex-direction: column;
+        gap:60px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .card-text h3 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    .tyo-card-text{
+        font-size: 18px;
+    }
+
+    .kuva-card-text h3{
+        font-size: 28px;
+    }
+   
+}
+
+@media screen and (max-width:716px) {
+    nav{
+        padding-bottom: 90px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+}
