@@ -269,11 +269,11 @@ footer{
     font-size: 18px;
 }
 .footer-contents{
-    width: 90%;
+    width: 80%;
     display: flex;
     max-width: 1200px;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     gap:150px;
     margin: 40px auto;
     max-width: 1400px;
@@ -358,6 +358,7 @@ footer{
 
     .footer-contents{
         flex-direction: column;
+        justify-content: center;
         gap:60px;
     }
 
@@ -390,4 +391,25 @@ footer{
     h1{
         font-size: 32px;
     }
+
+    header{
+        padding: 80px;
+    }
+    .imageme-1{
+        background-size: 130%;
+    }
+}
+
+@media screen and (max-width:350px){
+.imageme-1{
+        background-size: 140%;
+    }
+}
+
+footer{
+    padding: 70px 100px;
+}
+
+header{
+    padding: 65px;
 }
