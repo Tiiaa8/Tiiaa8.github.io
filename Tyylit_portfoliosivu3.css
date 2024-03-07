@@ -394,7 +394,6 @@ footer{
 
     header{
         padding: 100px;
-        
     }
     .imageme-1{
         background-size: 130%;
@@ -411,11 +410,11 @@ footer{
 }
 
 header{
-    padding-top: 30px;
+    padding: 50px;
 }
 
 nav{
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     
 }
 
