@@ -410,12 +410,20 @@ footer{
 }
 
 header{
-    padding: 50px;
+    padding: 60px;
 }
 
 nav{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     
 }
 
+
+.navi-links{
+    padding: 100px 48px;
+    margin-bottom: 160px;
+  }
+
+
 }
+
