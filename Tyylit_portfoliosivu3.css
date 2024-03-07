@@ -410,7 +410,9 @@ footer{
     padding: 40px 60px;
 }
 
-
+header{
+    padding-top: 30px;
+}
 
 nav{
     padding-bottom: 80px;
