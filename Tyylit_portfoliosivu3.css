@@ -400,9 +400,9 @@ footer{
     }
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:480px){
 .imageme-1{
-        background-size: 150%;
+        background-size: 160%;
     }
 
 footer{
@@ -414,15 +414,13 @@ header{
 }
 
 nav{
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     
 }
 
 
 .navi-links{
-    list-style: none;
-    margin: 0;
-    padding: 48px 48px;
+    padding: 70px 48px;
     
   }
 
