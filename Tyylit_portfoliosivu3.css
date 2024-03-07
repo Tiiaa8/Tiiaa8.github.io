@@ -426,3 +426,10 @@ nav{
 
 
 }
+
+@media screen and (max-width:480px){
+    .navi-links{
+        
+        margin-bottom: 200px;
+      }
+}
