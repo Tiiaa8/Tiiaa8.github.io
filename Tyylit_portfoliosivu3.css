@@ -393,7 +393,7 @@ footer{
     }
 
     header{
-        padding: 120px;
+        padding: 100px;
     }
     .imageme-1{
         background-size: 130%;
@@ -410,11 +410,21 @@ footer{
 }
 
 header{
-    padding: 30px;
+    padding: 60px;
 }
 
+nav{
+    padding-bottom: 90px;
+    
+}
+
+
 .navi-links{
-    padding: 50px 48px;
+    list-style: none;
+    margin: 0;
+    padding: 48px 48px;
+    
   }
+
 
 }
