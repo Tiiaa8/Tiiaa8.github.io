@@ -402,7 +402,7 @@ footer{
 
 @media screen and (max-width:350px){
 .imageme-1{
-        background-size: 140%;
+        background-size: 150%;
     }
 
 footer{
@@ -410,12 +410,11 @@ footer{
 }
 
 header{
-    padding: 60px;
+    padding: 30px;
 }
 
-nav{
-    padding-bottom: 120px;
-    
-}
+.navi-links{
+    padding: 50px 48px;
+  }
 
 }
